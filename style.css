@@ -9,8 +9,9 @@ h1{
 .par{
     color:orangered;
 }
-section{
+.flexable-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .class-width{
     width: 50%;
@@ -29,6 +30,28 @@ section{
     font-weight: 700;
 }
 .top-bannar{
-    background-image: url(images/pngtree-float-poster-banner-background-png-image_485970.jpg);
+    background-image: url();
     background-repeat: no-repeat;
+    background-size:cover;
+}
+.experiences-item{
+    margin-left: 4%;
+    margin-right:4%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px orangered;
+}
+#web-div-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+
+}
+#web-div-exper{
+    border-left: 7px solid;
+    border-image:linear-gradient(red,orange);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: purple;
 }
